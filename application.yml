@@ -33,6 +33,8 @@ words: boat,book,vote,seat,backpack,partition,groundhog
 
 ---
 spring:
+  application:
+    name: application
   profiles: application
 words: rosario,lourdes,suarez,vela
 server:
