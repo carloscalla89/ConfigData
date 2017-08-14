@@ -35,5 +35,5 @@ words: boat,book,vote,seat,backpack,partition,groundhog
 spring:
   profiles: application
 words: rosario,lourdes,suarez,vela
-server
+server:
   port: 8021
