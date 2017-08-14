@@ -34,5 +34,5 @@ words: boat,book,vote,seat,backpack,partition,groundhog
 ---
 spring:
   profiles: application
-words: carlos,alberto,calla,cayllahua
+words: rosario,lourdes,suarez,vela
   
