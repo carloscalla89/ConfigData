@@ -1,10 +1,10 @@
 ---
 # Items that apply to ALL profiles:
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka/,http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
-
+ribbon:
+  eureka:
+    enabled: false
+   listOfServers: localhost:8010,localhost:8011,localhost:8012
+   ServerListRefreshInterval: 15000
 ---
 spring:
   profiles: subject
@@ -29,4 +29,9 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 spring:
   profiles: noun
 words: boat,book,vote,seat,backpack,partition,groundhog
+
+---
+spring:
+  profiles: application
+words: carlos,alberto,calla,cayllahua
   
